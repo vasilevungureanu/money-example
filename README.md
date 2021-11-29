@@ -1,3 +1,3 @@
-# Kata Template
+# Money Example
 
-A template for starting quickly with a Kata.
+Step-by-step implementation of the Money Example alongside the book Test-Driven Development By Example.
