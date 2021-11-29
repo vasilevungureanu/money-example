@@ -17,3 +17,4 @@ Step-by-step implementation of the Money Example alongside the book Test-Driven 
 - [ ] Dollar/Franc duplication 
 - [x] Common equals
 - [ ] Common times
+- [x] Compare Francs to Dollars
