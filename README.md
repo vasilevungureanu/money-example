@@ -20,3 +20,6 @@ Step-by-step implementation of the Money Example alongside the book Test-Driven 
 - [x] Compare Francs to Dollars
 - [x] Currency?
 - [x] Delete testFrancMultiplication?
+- [ ] $5 + $5 = $10
+- [ ] Return Money from $5 + $5
+- [x] Bank.reduce(Money)
