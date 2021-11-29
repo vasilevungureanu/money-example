@@ -19,4 +19,4 @@ Step-by-step implementation of the Money Example alongside the book Test-Driven 
 - [x] Common times
 - [x] Compare Francs to Dollars
 - [x] Currency?
-- [ ] Delete testFrancMultiplication?
+- [x] Delete testFrancMultiplication?
