@@ -14,3 +14,6 @@ Step-by-step implementation of the Money Example alongside the book Test-Driven 
 - [ ] Equal null
 - [ ] Equal object
 - [x] 5 CHF * 2 = 10 CHF
+- [ ] Dollar/Franc duplication 
+- [x] Common equals
+- [ ] Common times
