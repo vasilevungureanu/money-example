@@ -4,7 +4,7 @@ Step-by-step implementation of the Money Example alongside the book Test-Driven 
 
 ### TO-DO List
 
-- [ ] $5 + 10 CHF = $10 if rate is 2:1
+- [x] $5 + 10 CHF = $10 if rate is 2:1
 - [x] $5 * 2 = $10
 - [x] Make “amount” private
 - [x] Dollar side-effects?
