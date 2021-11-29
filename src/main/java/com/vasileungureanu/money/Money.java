@@ -1,5 +1,7 @@
 package com.vasileungureanu.money;
 
+import java.util.Objects;
+
 public class Money implements Expression {
     protected int amount;
     protected String currency;
@@ -17,10 +19,17 @@ public class Money implements Expression {
         return new Money(amount, "CHF");
     }
 
-    public boolean equals(Object object) {
-        Money money = (Money) object;
-        return amount == money.amount
-                && currency().equals(money.currency());
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Money money = (Money) o;
+        return amount == money.amount && currency.equals(money.currency);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(amount, currency);
     }
 
     public String currency() {
