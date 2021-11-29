@@ -1,6 +1,6 @@
 package com.vasileungureanu.money;
 
-public class Money implements Expression{
+public class Money implements Expression {
     protected int amount;
     protected String currency;
 
@@ -36,6 +36,14 @@ public class Money implements Expression{
     }
 
     public Money reduce(String to) {
-        return this;
+        int rate = (currency.equals("CHF") && to.equals("USD"))
+                ? 2
+                : 1;
+        return new Money(amount / rate, to);
+    }
+
+    public Money reduce(Bank bank, String to) {
+        int rate = bank.rate(currency, to);
+        return new Money(amount / rate, to);
     }
 }
