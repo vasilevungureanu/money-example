@@ -26,4 +26,4 @@ Step-by-step implementation of the Money Example alongside the book Test-Driven 
 - [x] Reduce Money with conversion
 - [x] Reduce(Bank, String)
 - [x] Sum.plus
-- [ ] Expression.times
+- [x] Expression.times
