@@ -13,3 +13,4 @@ Step-by-step implementation of the Money Example alongside the book Test-Driven 
 - [ ] hashCode()
 - [ ] Equal null
 - [ ] Equal object
+- [x] 5 CHF * 2 = 10 CHF
