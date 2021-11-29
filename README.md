@@ -9,3 +9,5 @@ Step-by-step implementation of the Money Example alongside the book Test-Driven 
 - [ ] Make “amount” private
 - [x] Dollar side-effects?
 - [ ] Money rounding?
+- [x] equals()
+- [ ] hashCode()
